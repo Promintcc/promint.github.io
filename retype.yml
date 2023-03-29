@@ -6,6 +6,6 @@ branding:
   label: Docs
 links:
 - text: Getting Started
-  link: https://promint.cc/guides/getting-started/
+  link: https://promint.cc/
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
