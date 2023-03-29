@@ -2,7 +2,7 @@
 label: "What is Promint?"
 icon: home
 ---
-![](/static/headers/header-1.png)
+![](/static/headers/promint-banner.png)
 
 # Welcome to Promint
 
