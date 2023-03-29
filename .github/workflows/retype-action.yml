@@ -1,5 +1,4 @@
 name: Publish website to GitHub Pages
-url: promint.cc
 on:
   workflow_dispatch:
   push:
