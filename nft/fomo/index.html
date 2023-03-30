@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.733495509090">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.733502070109">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -32,11 +32,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.4.0.733495509090" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.733502070109" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.733495509090" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.733502070109" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.733495509090" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.733502070109" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -231,7 +231,7 @@
 </doc-anchor-target>
 <p>FOMO Bot is currently one of the best bot for NFT traders in the space.
 We catch the latest and fastest NFT sales on marketplaces
-(OpenSea, Looksrare, X2Y2, Gem.XYZ, Blur, and more.) and creates live charts based on custom data.</p>
+(OpenSea, Blur, X2Y2, Looksrare, and more.) and creates live charts based on custom data.</p>
 <p>These charts are order book, instant floor, scatter-plot sales and sales by timeframe.
 Timeframes can differ based on collection creation date, new collections has 5 minutes timeframe.</p>
 <p>While our backend software updates the data of all trending collections every 30 seconds this bot generates alerts for collections with more than 10 NFT sales in the last 5 minutes.</p>
@@ -242,6 +242,52 @@ Timeframes can differ based on collection creation date, new collections has 5 m
 <li>High Volume Alerts Channel</li>
 <li>Extreme Volume Alerts Channel</li>
 </ul>
+<doc-anchor-target id="fomo-charts">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fomo-charts">#</doc-anchor-trigger>
+        <span>FOMO Charts</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Current and Previous Listings Orderbook Chart</li>
+<li>Last 50 Sales Scatter-plot Chart</li>
+<li>Sales Floor Chart</li>
+<li>Sales Count Chart</li>
+</ul>
+<doc-anchor-target id="fomo-metrics">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fomo-metrics">#</doc-anchor-trigger>
+        <span>FOMO Metrics</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Unique Wallets</li>
+<li>BlueChip Holders</li>
+<li>Unique Sales</li>
+<li>NDCP Score (Next Degen Collection Probabilty Score)</li>
+</ul>
+<doc-anchor-target id="fomo-indicators">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fomo-indicators">#</doc-anchor-trigger>
+        <span>FOMO Indicators</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Buying / Selling Pressure</li>
+<li>Sell Wall</li>
+<li>FOMO Level</li>
+</ul>
+<hr />
+<doc-anchor-target id="role-ping-mechanism">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#role-ping-mechanism">#</doc-anchor-trigger>
+        <span>Role Ping Mechanism</span>
+    </h2>
+</doc-anchor-target>
+<p>NEW FOMO, HIGH FOMO, EXTREME FOMO and EXTREME SELL</p>
+<p>We are processing whole data to create meaningful pings, Increasing or Decreasing Sales, Increasing or Decreasing BlueChip Index, Increasing or Decreasing listings etc.</p>
+<p>For example EXTREME SELL ping is based on current indicators that current listings are increasing, last 5 minutes sales are decreasing and decreasing NDCP score. Combining these datas will trigger this role.</p>
+<p>For decreasing noise we ping each collection once for 30 minutes.</p>
 <hr />
 <doc-anchor-target id="social-scoring-mechanism">
     <h2>
@@ -272,6 +318,51 @@ Timeframes can differ based on collection creation date, new collections has 5 m
     </h2>
 </doc-anchor-target>
 <p>We are storing each alerts stats and creating useful metrics like Low/High Floor, XXX amount times alerted in the last 24 Hour. Based on these stats we suggest RSI Stop Loss price and if you don&#x27;t exit trade we show In Loss metric.</p>
+<hr />
+<doc-anchor-target id="sell-wall-indicator">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#sell-wall-indicator">#</doc-anchor-trigger>
+        <span>Sell Wall Indicator</span>
+    </h2>
+</doc-anchor-target>
+<p>This indicator processing complex data for each alerts, and determining collection specific value. These values are &quot;Thick&quot; and &quot;Thin&quot;, and can vary based on collection latest data including, current sales, current listings, previous listings, and expected next 5 minutes sales and next 5 minutes listings. This algorithm contouniosly evolving based on previous alerts.</p>
+<hr />
+<doc-anchor-target id="current-pressure-indicator">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#current-pressure-indicator">#</doc-anchor-trigger>
+        <span>Current Pressure Indicator</span>
+    </h2>
+</doc-anchor-target>
+<p>This indicator is processing Current Listings, Previous Listings, Current Sales, Last Sales, Current Floor and, Previous Floor.
+This lagging indicator provides direction of floor price of collection.</p>
+<doc-anchor-target id="pressure-levels">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pressure-levels">#</doc-anchor-trigger>
+        <span>Pressure Levels</span>
+    </h3>
+</doc-anchor-target>
+<p>Extreme Buy, Strong Buy, Buy, Neutral Buy, Neutral Sell, Sell, Extreme Sell</p>
+<p>This values does not provides &quot;buy&quot; or &quot;sell&quot; signals, it can be vary on other indicator values.
+That&#x27;s mean, you may get &quot;Extreme Buy&quot; alert top of price of floor.
+By combining these indicating values, you may sell your item at the top of floor price or you can accumulate while indicator shows Neutral Sell.</p>
+<hr />
+<doc-anchor-target id="ndcp-score">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ndcp-score">#</doc-anchor-trigger>
+        <span>NDCP Score</span>
+    </h2>
+</doc-anchor-target>
+<p>This score calculated by checking most HIGH ROI wallets at background for each alert. We are checking over 2000+ wallets to determine this score.</p>
+<p>We&#x27;re going to add more wallets over time, currently there is no limit for this score but we may limit to 1000 maximum.</p>
+<p>This score will update every 15 minutes for each collection.</p>
+<hr />
+<doc-anchor-target id="example-alerts">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-alerts">#</doc-anchor-trigger>
+        <span>Example Alerts</span>
+    </h2>
+</doc-anchor-target>
+<p><img src="../images/newfomo.jpg" alt="" /> <img src="../images/extremefomo.jpg" alt="" /></p>
 
                                 
                                 <!-- Required only on API pages -->
