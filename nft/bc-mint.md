@@ -6,10 +6,12 @@ order: 1900
 
 ![](/static/headers/promint-banner.jpg)
 
-# Promint
+## Blue Chip Mint Alerts
 
-## Crypto Tools Features
+We are filtering ETH mint transactions by our blue chip holders database and creating alerts based on custom data.
 
-:sparkles:[Promint](https://Promint.cc/) NFT & Crypto Labs. Focus on your trading while Promint builds the rest.
+We are updating blue chip wallets database every 15 minutes. We got est. 45.000 wallet address on database.
 
 ---
+
+![](/nft/images/bluechipmint.jpg)

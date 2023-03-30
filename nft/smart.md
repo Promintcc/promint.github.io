@@ -6,10 +6,9 @@ order: 1900
 
 ![](/static/headers/promint-banner.jpg)
 
-# Promint
 
-## Crypto Tools Features
+## Smart Trading Alerts
 
-:sparkles:[Promint](https://Promint.cc/) NFT & Crypto Labs. Focus on your trading while Promint builds the rest.
+Under Development!
 
 ---

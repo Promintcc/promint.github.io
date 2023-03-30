@@ -6,10 +6,8 @@ order: 1800
 
 ![](/static/headers/promint-banner.jpg)
 
-# Promint
+## New Contract & Mint Alerts
 
-## Crypto Tools Features
-
-:sparkles:[Promint](https://Promint.cc/) NFT & Crypto Labs. Focus on your trading while Promint builds the rest.
-
+![](/nft/images/mintalert.jpg)
+![](/nft/images/contractalert.jpg)
 ---
