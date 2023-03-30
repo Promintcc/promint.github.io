@@ -6,4 +6,4 @@ icon: home
 
 # Welcome to Promint
 
-[Promint](https://Promint.cc/) :sparkles: :sparkles: NFT & Crypto Labs. Focus on your trading while Promint builds the rest.
+:sparkles:[Promint](https://Promint.cc/) NFT & Crypto Labs. Focus on your trading while Promint builds the rest.

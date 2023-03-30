@@ -4,7 +4,9 @@ url: www.promint.cc
 
 branding:
   title: Promint
-  label: Docs
+  label: Labs
+  logo: /static/promint_logo_small.png
+  logoDark: /static/promint_logo_small.png
 
 links:
 - text: Getting Started
