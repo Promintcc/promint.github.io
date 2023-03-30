@@ -11,6 +11,10 @@ branding:
 links:
 - text: Getting Started
   link: https://promint.cc/
+  
+- text: Pricing
+  link: /pro
+  icon: star
 
 - text: Twitter # Icon from https://iconmonstr.com
   link: https://twitter.com/promintcc/
