@@ -12,6 +12,8 @@ We are filtering ETH mint transactions by our blue chip holders database and cre
 
 We are updating blue chip wallets database every 15 minutes. We got est. 45.000 wallet address on database.
 
+[!button text="Buy Standalone 0.5Ξ/Year" icon="star-fill"](https://twitter.com/promintcc)
+
 ---
 
 ![](/nft/images/bluechipmint.jpg)

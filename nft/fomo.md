@@ -102,5 +102,9 @@ This score will update every 15 minutes for each collection.
 
 ---
 
+[!button text="Buy Standalone 0.75Ξ/Year" icon="star-fill"](https://twitter.com/promintcc)
+
+---
+
 ## Example Alerts
 ![](/nft/images/newfomo.jpg) ![](/nft/images/extremefomo.jpg)
